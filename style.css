@@ -7,6 +7,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #fff;
+  font-weight: 200;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +72,7 @@ body {
 
 .user-info h2 {
   margin-top: 0;
+  font-weight: 200;
 }
 
 .user-info ul {
@@ -84,9 +86,7 @@ body {
 .user-info ul li {
   display: flex;
   align-items: center;
-}
-
-.user-info ul li strong {
+  font-weight: 400;
   font-size: 0.9rem;
   margin-left: 0.5rem;
 }
@@ -95,7 +95,9 @@ body {
   text-decoration: none;
   color: #fff;
   background-color: #06142f;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   padding: 0.25rem 0.5rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
